@@ -28,4 +28,4 @@ Se quiser rodar o projeto diretamente na sua máquina, siga os passos abaixo:
 
 1. Clone este repositório ou faça o download dos arquivos:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+   git clone [https://github.com/GABRIELR480/projeto-web-responsivo.git](https://github.com/GABRIELR480/projeto-web-responsivo.git)
