@@ -47,7 +47,6 @@ btn.addEventListener("click", () => {
       div.textContent = num;
       resultado.appendChild(div);
 
-      // Dispara os confetes no último número sorteado
       if (index === numeros.length - 1) {
         confetti({
           particleCount: 100,
