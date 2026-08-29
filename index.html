@@ -11,7 +11,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorteador de Números</title><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sorteador de Números</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Sorteador de Números 🎲</h1>
+
+  <section class="info">
+    <p>
+      Informe quantos números deseja sortear e o intervalo mínimo e máximo.
+      Você pode escolher se deseja números repetidos ou não.
+    </p>
+  </section>
+
+ <section class="form">
+    <label for="quantidade">Quantidade de números:</label>
+    <input type="number" id="quantidade" placeholder="Ex: 3">
+
+    <label for="min">Número mínimo:</label>
+    <input type="number" id="min" placeholder="Ex: 1">
+
+    <label for="max">Número máximo:</label>
+    <input type="number" id="max" placeholder="Ex: 100">
+
+    <label class="checkbox-label">
+      <input type="checkbox" id="semRepetir">
+      Não repetir números
+    </label>
+
+    <button id="btnSortear">Sortear</button>
+  </section>
+
+  <section id="resultado"></section>
+  <div id="erro"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
